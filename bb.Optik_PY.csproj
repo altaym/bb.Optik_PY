@@ -13,14 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="main.py">
+    <None Update="py\main.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="cevapkagidi\" />
-    <Folder Include="ogrenciler\" />
+    <None Update="optikForms\testForm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -34,7 +34,7 @@ namespace bb.Optik_PY
             //bbPythonApp = "D://_temp//optik//main.py";
 
             baseDirectory = Environment.CurrentDirectory;
-            bbPythonApp = Path.Combine(Environment.CurrentDirectory, "main.py");
+            bbPythonApp = Path.Combine(Environment.CurrentDirectory,"py", "main.py");
             }
 
 
