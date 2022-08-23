@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>bb.Optik_PY</AssemblyName>
+    <RootNamespace>bb.Optik_PY</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronPython" Version="2.7.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="main.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="cevapkagidi\" />
+    <Folder Include="ogrenciler\" />
+  </ItemGroup>
+
+</Project>
